@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding: 8px 0;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.image {
+    text-align: center;
+    background-color: rgb(201, 230, 228);
+    color: rgba(18, 11, 16, 0.794);
+}
+
+.image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
